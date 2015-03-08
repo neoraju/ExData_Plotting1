@@ -9,4 +9,3 @@ with(data, plot(x=datetime, Sub_metering_1, type="s",  ylab="Energy sub metering
 plot(x=datetime, Global_active_power, type="s", ylab="Global Active Power (kilowatts)", xlab="")
 dev.copy(png, file = "plot2.png")
 dev.off()
-

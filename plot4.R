@@ -19,4 +19,3 @@ points(datetime, Sub_metering_3, type="s", col="blue")
 plot(x=datetime, Global_reactive_power, type="s")
 dev.copy(png, file = "plot4.png",  width = 480, height = 480, units = "px", pointsize = 12, bg = "white")
 dev.off()
-
